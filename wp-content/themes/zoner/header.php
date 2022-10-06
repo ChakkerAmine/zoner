@@ -16,12 +16,7 @@
     <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/style.css') ?>" type="text/css">
     <?php wp_head(); ?>
 
-    <title>Zoner | Slider Homepage</title>
-    <style>
-        .slide img{
-            width: 100vw!important;
-        }
-    </style>
+    <title><?php bloginfo('title'); ?> | <?php bloginfo('description') ?></title>
 </head>
 <body class="page-homepage navigation-fixed-top page-slider" id="page-top" data-spy="scroll" data-target=".navigation" data-offset="90">
 <!-- Wrapper -->
